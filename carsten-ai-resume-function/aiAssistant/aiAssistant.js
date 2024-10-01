@@ -3,7 +3,7 @@ const axios = require('axios');
 module.exports = async function (context, req) {
   context.log('Processing request for AI Assistant Resume function.');
 
-  // Ensure the request body has the expected structure
+  // Ensure the request body has the expected structure 
   if (!req.body || !req.body.prompt) {
     context.res = {
       status: 400,
