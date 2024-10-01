@@ -2,13 +2,13 @@
   "name": "carsten-ai-resume-function",
   "version": "1.0.0",
   "description": "Azure Function for AI Assistant Resume Generator",
-  "main": "index.js", 
+  "main": "src/functions/aiAssistant.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/functions/aiAssistant.js"
   },
   "dependencies": {
-    "axios": "^0.21.1", 
-    "dotenv": "^8.2.0" 
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
   },
   "engines": {
     "node": ">=14.0.0"
